@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+  </head>
+  <body>
+    <div style="display: inline-block">
+      <table style="margin-top: 5vh">
+        <tbody>
+          <tr>
+            <td><span class="label">Kundnummer</span></td>
+          </tr>
+          <tr>
+            <td align="right"><span name="job:reference" style="display: block; overflow: auto">{{job.reference}}</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table style="margin-top: 5vh">
+        <tbody>
+          <tr>
+            <td><span class="label">Er referens</span></td>
+          </tr>
+          <tr>
+            <td align="right"><span name="job:name" style="display: block; overflow: auto">{{job.name}}</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="display: inline-block">
+      <table style="margin-top: 5vh">
+        <tbody>
+          <tr>
+            <td><span class="label">Utskriftsdatum</span></td>
+          </tr>
+
+          <tr>
+            <td align="right"><span name="general:date" style="display: block; overflow: auto">{{general.date}}</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <table style="margin-top: 5vh">
+        <tbody>
+          <tr>
+            <td><span class="label">V&aring;r referens</span></td>
+          </tr>
+
+          <tr>
+            <td align="right"><span name="job:user" style="display: block; overflow: auto">{{job.user}}</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
